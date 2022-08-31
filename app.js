@@ -13,4 +13,11 @@ function randomNumber() {
     randomPosition.classList.add('mole')
 }
 
-randomNumber()
+
+
+function moveMole() {
+    let timerId = null
+    timerId = setInterval(randomNumber, 500)
+}
+
+moveMole()
