@@ -20,5 +20,6 @@ body {
 }
 
 .mole {
-    background-color: blue;
+    background-image: url("https://a-z-animals.com/media/animals/images/original/mole2.jpg");
+    background-size: cover;
 }
