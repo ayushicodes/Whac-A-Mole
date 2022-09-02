@@ -3,20 +3,39 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(169, 163, 163);
 }
+
+.score-div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+h2 {
+    letter-spacing: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
 
 
 .grid {
-    height: 606px;
-    width: 606px;
+    height: 515px;
+    width: 520px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5%;
+
 }
 
 .square {
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
+    height: 166px;
+    width: 166px;
+    border: 3px solid white;
+    border-radius: 10px;
+
 }
 
 .mole {
