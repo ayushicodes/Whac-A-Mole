@@ -26,7 +26,7 @@ h2 {
     width: 520px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5%;
+    margin-top: 4%;
 
 }
 
@@ -39,6 +39,6 @@ h2 {
 }
 
 .mole {
-    background-image: url("https://a-z-animals.com/media/animals/images/original/mole2.jpg");
+    background-image: url("mole.jpg");
     background-size: cover;
 }
